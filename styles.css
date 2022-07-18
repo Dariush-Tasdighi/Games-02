@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    font-size: 3.2vw;
+
+    font-family: 'Orbitron', 'sans-serif';
+
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+}
+
+div#container-area {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+
+    width: 30vw;
+    height: 90vh;
+
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    color: white;
+
+    background-color: rgba(255, 255, 255);
+
+    transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+div#dashboard-area {
+    flex: 10%;
+
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+}
+
+div#playground-area {
+    flex: 90%;
+    position: relative;
+
+    background-color: white;
+}
+
+img#ball-element {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    top: 0;
+    /* left: 50%; */
+    left: 0;
+
+    width: 0.8em;
+    height: 0.8em;
+
+    position: absolute;
+
+    /* transform: translateX(-50%); */
+    /* transform: translateY(50%); */
+}
+
+div#rocket-element {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    left: 50%;
+    bottom: 1em;
+
+    width: 1.5em;
+    height: 0.1em;
+
+    position: absolute;
+
+    background-color: black;
+
+    /* transform: translateX(-50%); */
+}
+
+
+
+
+
+
+
+
+
+div.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 12em;
+    height: 4em;
+    font-size: 0.6em;
+    color: white;
+    background-color: #c7365f;
+
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+button#btn-roll-dice {
+    left: 50%;
+    bottom: 25%;
+    position: absolute;
+
+    width: 8em;
+    height: 2.5em;
+
+    transform: translateX(-50%);
+
+    border-radius: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    font-weight: 700;
+    font-size: 0.5em;
+}
+
+button#btn-new-game {
+    left: 50%;
+    bottom: 15%;
+    position: absolute;
+
+    width: 8em;
+    height: 2.5em;
+
+    transform: translateX(-50%);
+
+    border-radius: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    font-weight: 700;
+    font-size: 0.5em;
+}
